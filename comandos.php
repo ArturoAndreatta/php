@@ -23,6 +23,9 @@
     } else {
         echo "Falso <br>";
     }
+    
+    echo "<h1>SWITCH CASE</h1>";
+
     $caso=1;
     switch ($x) {
         case 0:
@@ -35,4 +38,28 @@
             echo "Default";
             break;
     }
+
+    echo "<h1>FOR</h1>";
+
+    for ($num=0; $num <10 ; $num++) { 
+        echo "<p>for $num</p>";
+    }
+
+    echo "<h1>WHILE</h1>";
+
+    $num=0;
+    
+    while ($num <= 10) {
+        echo "<p>while $num</p>";
+        $num++;
+    }
+
+    echo "<h1>DO WHILE</h1>";
+
+    $num=0;
+
+    do {
+        echo "<p>do while $num</p>";
+        $num++;
+    } while ($num <= 10);
 ?>
